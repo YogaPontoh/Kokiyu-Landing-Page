@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="flex-container flex-direction-row">
+      <div class="flex-item flex-container center-flexbox">
+        <img src="assets/image/group-27-copy-3.svg" alt="Kokiyu" class="logo" />
+        <nav>
+          <ul>
+            <li><a href="#" class="fopensans">HOME</a></li>
+            <li><a href="#" class="fopensans">RESEP</a></li>
+            <li><a href="#" class="fopensans">REKOMENDASI</a></li>
+            <li><a href="#" class="fopensans">TENTANG KAMI</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="flex-container flex-item center-flexbox-1">
+        <div class="flex-container">
+          <a href="#">
+            <img src="assets/image/icons8-shopping-cart-96.png" class="cart" />
+          </a>
+          <div class="shape-2"></div>
+          <a href="#" class="flex-item fopensans bold login">LOGIN/DAFTAR</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- Welcome to kokiyu -->
+
+      <div class="welcome_pic bg-color-1">
+        <div class="welcome_text">
+          <h1>Selamat Datang di Kokiyu</h1>
+          <p>
+            Bahan segar lengkap dengan resep dan cara masak, kami antar ke
+            rumahmu tepat waktu.
+          </p>
+          <button>Ayo Mulai</button>
+        </div>
+        <div class="icon-chat">
+          <img src="assets/image/chat.png" alt="">
+        </div>
+      </div>
+
+      <!-- Memasak jadi lebih mudah -->
+
+      <div class="flex-container flex-direction-row memasak-padding-1 bg-color-2">
+        <div
+          class="
+            flex-item flex-direction-column flex-basis-50
+            center-flexbox-2
+            memasak-padding-2
+          "
+        >
+          <h1 class="memasak-width-1">Memasak Jadi Lebih Mudah dan Nyaman</h1>
+          <div class="shape-1"></div>
+          <p class="memasak-width-2">
+            Kokiyu memastikan semua bahan yang kamu perlukan lengkap, disertai
+            dengan cara memasak yang jelas dan tiba dalam keadaan fresh.
+          </p>
+          <a href="#" class="lebih-detail-1">LEBIH DETAIL ></a>
+        </div>
+        <div
+          class="flex-item flex-direction-column flex-basis-50 flex-container"
+        >
+          <div class="flex-item flex-direction-row flex-item memasak-padding-3">
+            <div class="flex-item">
+              <img
+                src="assets/image/2-medium-shape-copy@3x.png"
+                alt=""
+                class="mini-logo"
+              />
+            </div>
+            <div class="flex-item">
+              <h2 class="memasak-width-3">Bahan Lengkap, Takaran Tepat</h2>
+              <br />
+              <p class="memasak-width-4">
+                Bahan lengkap, bumbu sesuai takaran, dengan begitu tak ada lagi
+                rasa bersalah dari makanan yang tersisa.
+              </p>
+            </div>
+          </div>
+          <div class="flex-item flex-direction-row flex-item memasak-padding-3">
+            <div class="flex-item">
+              <img src="assets/image/shape@3x.png" alt="" class="mini-logo" />
+            </div>
+            <div class="flex-item">
+              <h2 class="memasak-width-3">
+                Rasa Yang Lezat dari Resep ala Koki
+              </h2>
+              <br />
+              <p class="memasak-width-4">
+                Kamu akan menjadi koki dengan masakan yang lezat dibantu dengan
+                instruksi yang lengkap.
+              </p>
+            </div>
+          </div>
+          <div class="flex-item flex-direction-row flex-item memasak-padding-3">
+            <div class="flex-item">
+              <img
+                src="assets/image/2-medium-shape-copy-2@3x.png"
+                alt=""
+                class="mini-logo"
+              />
+            </div>
+            <div class="flex-item">
+              <h2 class="memasak-width-3">
+                Pengiriman Tepat Waktu, Bahan Tetap Fresh
+              </h2>
+              <br />
+              <p class="memasak-width-4">
+                Bahan tiba tepat waktu dilengkapi ice-pack sehingga kesegarannya
+                tetap terjaga.
+              </p>
+            </div>
+          </div>
+        </div>
+        <img src="assets/image/bitmap-copy-15@3x.jpg" alt="" class="icon-bawang">
+        <img src="assets/image/bitmap-copy-16@3x.jpg" alt="" class="icon-anggur">
+      </div>
+
+
+      <!-- Pilih Resep Unggulan -->
+
+      <h1 class="title-resep-unggulan">Pilih Resep Unggulan</h1>
+      <div class="button-resep-container bg-color-3">
+        <div class="button-resep-arrow" id="card-1-js-right">
+          <img src="assets/image/icon-arrow-right-copy.svg" alt="" />
+        </div>
+        <div class="button-resep-middle">|</div>
+        <div class="button-resep-arrow" id="card-1-js-left">
+          <img src="assets/image/icon-arrow-right.svg" alt="" />
+        </div>
+      </div>
+      <div class="shape-background"></div>
+      <div class="flex-container overflow-x margin-top-resep bg-color-3" id="card-1-js">
+        <div class="card flex-item">
+          <img src="assets/image/bitmap@3x.png" alt="" />
+          <h2>Seared Steaks & Green Beans</h2>
+          <p>Categories: Breakfast - Mudah - 30 menit</p>
+          <p class="price">Rp 75.000</p>
+        </div>
+        <div class="card flex-item">
+          <img src="assets/image/bitmap@3x (2).png" alt="" />
+          <h2>Rendang Padang Daging Sapi</h2>
+          <p>Categories: Breakfast - Mudah - 30 menit</p>
+          <p class="price">Rp 75.000</p>
+        </div>
+        <div class="card flex-item">
+          <img src="assets/image/bitmap@3x (3).png" alt="" />
+          <h2>Togarashi Tilapia & Garlic Rice</h2>
+          <p>Categories: Breakfast - Mudah - 30 menit</p>
+          <p class="price">Rp 75.000</p>
+        </div>
+        <div class="card flex-item">
+          <img src="assets/image/bitmap@3x (4).png" alt="" />
+          <h2>Southern-Spiced Chicken</h2>
+          <p>Categories: Breakfast - Mudah - 30 menit</p>
+          <p class="price">Rp 75.000</p>
+        </div>
+        <div class="card flex-item">
+          <img src="assets/image/bitmap@3x (4).png" alt="" />
+          <h2>Southern-Spiced Chicken</h2>
+          <p>Categories: Breakfast - Mudah - 30 menit</p>
+          <p class="price">Rp 75.000</p>
+        </div>
+        <div class="card flex-item">
+          <img src="assets/image/bitmap@3x (4).png" alt="" />
+          <h2>Southern-Spiced Chicken</h2>
+          <p>Categories: Breakfast - Mudah - 30 menit</p>
+          <p class="price">Rp 75.000</p>
+        </div>
+      </div>
+
+      <!-- Alasan Kenapa Masak itu Menyenangkan -->
+
+      <h1 class="center-flexbox-2">Alasan Kenapa Memasak Itu Menyenangkan</h1>
+      <div class="flex-container center-flexbox-3 bg-color-4">
+        <div class="flex-container width-80per">
+          <div class="flex-item card-2">
+            <div class="card-2-picture card-2-picture-1">
+              <div class="card-2-picture-effect">
+                <h2>Masak di rumah untuk untuk menambah kehangatan</h2>
+                <br />
+                <a href="">Selengkapnya ></a>
+              </div>
+            </div>
+          </div>
+          <div class="flex-item card-2">
+            <div class="card-2-picture card-2-picture-2">
+              <div class="card-2-picture-effect">
+                <h2>
+                  Siapkan Dinner Romantis di Rumah dengan Menu a la Restoran
+                </h2>
+                <a href="">Selengkapnya ></a>
+              </div>
+            </div>
+          </div>
+          <div class="flex-item card-2">
+            <div class="card-2-picture card-2-picture-3">
+              <div class="card-2-picture-effect">
+                <h2>
+                  Meningkatkan minat memasak si kecil dengan menu-menu masakan
+                  ini
+                </h2>
+                <a href="">Selengkapnya ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="assets/image/bitmap@3x(1).jpg" class="icon-bawang-1" alt="">
+        <img src="assets/image/bitmap@3x.jpg" class="icon-tomat" alt="">
+      </div>
+      <a href="#" class="shape-button center-flexbox-3 flex-container"
+        >Lihat Lebih</a
+      >
+
+      <!-- Cerita Mereka -->
+
+      <img src="assets/image/5-a-0-c-48-a-882-e-02-d-31-ecb-8-cff-2-copy@3x.jpg.png" class="daong" alt="">
+
+      <h1 class="title-cerita-mereka">Cerita Mereka</h1>
+      <div
+        class="button-cerita-container button-cerita-container-left bg-color-5"
+        id="card-3-js-right"
+      >
+        <img
+          src="assets/image/icon-arrow-right-copy.svg"
+          class="button-cerita-arrow"
+          alt=""
+        />
+      </div>
+      <d
+        class="button-cerita-container button-cerita-container-right bg-color-5"
+        id="card-3-js-left"
+      >
+        <img
+          src="assets/image/icon-arrow-right.svg"
+          class="button-cerita-arrow"
+          alt=""
+        />
+      </d>
+      <div class="background-color-1 bg-color-5">
+        <div class="cerita-mereka-container">
+          <div class="flex-container overflow-x" id="card-3-js">
+            <div class="flex-item card-3">
+              <img
+                src="assets/image/kukis.jpg"
+                alt="kukis"
+                class="card-3-picture"
+              />
+              <div class="flex-direction-row">
+                <div class="flex-item flex-direction-column">
+                  <img
+                    src="assets/image/orang.png"
+                    class="flex-item profile-picture"
+                    alt=""
+                  />
+                  <h2 class="flex-item">Bryan Barry</h2>
+                  <img
+                    src="assets/image/instagram-logo-png-2428.png"
+                    class="flex-item instagram-picture"
+                    alt=""
+                  />
+                </div>
+                <p class="flex-item">
+                  Tidak perlu bingung lagi, bahan-bahan yang kamu perlukan telah
+                  kami siapkan lengkap dan sesuai takaran. Tidak perlu bingung
+                  lagi, bahan-bahan.
+                </p>
+              </div>
+            </div>
+            <div class="flex-item card-3">
+              <img
+                src="assets/image/kukis.jpg"
+                alt="kukis"
+                class="card-3-picture"
+              />
+              <div class="flex-direction-row">
+                <div class="flex-item flex-direction-column">
+                  <img
+                    src="assets/image/orang.png"
+                    class="flex-item profile-picture"
+                    alt=""
+                  />
+                  <h2 class="flex-item">Bryan Barry</h2>
+                  <img
+                    src="assets/image/instagram-logo-png-2428.png"
+                    class="flex-item instagram-picture"
+                    alt=""
+                  />
+                </div>
+                <p class="flex-item">
+                  Tidak perlu bingung lagi, bahan-bahan yang kamu perlukan telah
+                  kami siapkan lengkap dan sesuai takaran. Tidak perlu bingung
+                  lagi, bahan-bahan.
+                </p>
+              </div>
+            </div>
+            <div class="flex-item card-3">
+              <img
+                src="assets/image/kukis.jpg"
+                alt="kukis"
+                class="card-3-picture"
+              />
+              <div class="flex-direction-row">
+                <div class="flex-item flex-direction-column">
+                  <img
+                    src="assets/image/orang.png"
+                    class="flex-item profile-picture"
+                    alt=""
+                  />
+                  <h2 class="flex-item">Bryan Barry</h2>
+                  <img
+                    src="assets/image/instagram-logo-png-2428.png"
+                    class="flex-item instagram-picture"
+                    alt=""
+                  />
+                </div>
+                <p class="flex-item">
+                  Tidak perlu bingung lagi, bahan-bahan yang kamu perlukan telah
+                  kami siapkan lengkap dan sesuai takaran. Tidak perlu bingung
+                  lagi, bahan-bahan.
+                </p>
+              </div>
+            </div>
+            <div class="flex-item card-3">
+              <img
+                src="assets/image/kukis.jpg"
+                alt="kukis"
+                class="card-3-picture"
+              />
+              <div class="flex-direction-row">
+                <div class="flex-item flex-direction-column">
+                  <img
+                    src="assets/image/orang.png"
+                    class="flex-item profile-picture"
+                    alt=""
+                  />
+                  <h2 class="flex-item">Bryan Barry</h2>
+                  <img
+                    src="assets/image/instagram-logo-png-2428.png"
+                    class="flex-item instagram-picture"
+                    alt=""
+                  />
+                </div>
+                <p class="flex-item">
+                  Tidak perlu bingung lagi, bahan-bahan yang kamu perlukan telah
+                  kami siapkan lengkap dan sesuai takaran. Tidak perlu bingung
+                  lagi, bahan-bahan.
+                </p>
+              </div>
+            </div>
+            <div class="flex-item card-3">
+              <img
+                src="assets/image/kukis.jpg"
+                alt="kukis"
+                class="card-3-picture"
+              />
+              <div class="flex-direction-row">
+                <div class="flex-item flex-direction-column">
+                  <img
+                    src="assets/image/orang.png"
+                    class="flex-item profile-picture"
+                    alt=""
+                  />
+                  <h2 class="flex-item">Bryan Barry</h2>
+                  <img
+                    src="assets/image/instagram-logo-png-2428.png"
+                    class="flex-item instagram-picture"
+                    alt=""
+                  />
+                </div>
+                <p class="flex-item">
+                  Tidak perlu bingung lagi, bahan-bahan yang kamu perlukan telah
+                  kami siapkan lengkap dan sesuai takaran. Tidak perlu bingung
+                  lagi, bahan-bahan.
+                </p>
+              </div>
+            </div>
+            <div class="flex-item card-3">
+              <img
+                src="assets/image/kukis.jpg"
+                alt="kukis"
+                class="card-3-picture"
+              />
+              <div class="flex-direction-row">
+                <div class="flex-item flex-direction-column">
+                  <img
+                    src="assets/image/orang.png"
+                    class="flex-item profile-picture"
+                    alt=""
+                  />
+                  <h2 class="flex-item">Bryan Barry</h2>
+                  <img
+                    src="assets/image/instagram-logo-png-2428.png"
+                    class="flex-item instagram-picture"
+                    alt=""
+                  />
+                </div>
+                <p class="flex-item">
+                  Tidak perlu bingung lagi, bahan-bahan yang kamu perlukan telah
+                  kami siapkan lengkap dan sesuai takaran. Tidak perlu bingung
+                  lagi, bahan-bahan.
+                </p>
+              </div>
+            </div>
+            <div class="flex-item card-3">
+              <img
+                src="assets/image/kukis.jpg"
+                alt="kukis"
+                class="card-3-picture"
+              />
+              <div class="flex-direction-row">
+                <div class="flex-item flex-direction-column">
+                  <img
+                    src="assets/image/orang.png"
+                    class="flex-item profile-picture"
+                    alt=""
+                  />
+                  <h2 class="flex-item">Bryan Barry</h2>
+                  <img
+                    src="assets/image/instagram-logo-png-2428.png"
+                    class="flex-item instagram-picture"
+                    alt=""
+                  />
+                </div>
+                <p class="flex-item">
+                  Tidak perlu bingung lagi, bahan-bahan yang kamu perlukan telah
+                  kami siapkan lengkap dan sesuai takaran. Tidak perlu bingung
+                  lagi, bahan-bahan.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- subscibe kokiyu -->
+
+      <div class="subs-kokiyu-pic bg-color-1">
+        <div class="subs-kokiyu-container">
+          <img src="assets/image/bitmap-copy-14@3x.jpg.png" class="icon-bawang-2" alt="">
+          <div class="subs-kokiyu-text">
+            <h1>Ikuti Resep Terbaru dari Kokiyu</h1>
+            <p>
+              Kokiyu siap memberikan resep terbarunya lengkap dengan cara dan
+              tips, sehingga nggak ada lagi cerita bingung mau masak apa.
+              Daftar, Yuk!
+            </p>
+            <input type="text" placeholder="Alamat Email" class="fopensans" />
+            <button class="subs-kokiyu-button fopensans">SUBSCRIBE</button>
+          </div>
+        </div>
+      </div>
+      
+    </main>
+    <footer>
+      <div class="flex-container flex-direction-row footer-padding">
+        <div class="flex-item flex-direction-column">
+          <!-- <div class="flex-item" style="width: 100px;"> -->
+          <p class="footer-bold"><a href="#">RESEP</a></p>
+          <p class="footer-bold"><a href="#">REKOMENDASI</a></p>
+          <p class="footer-bold"><a href="#">TENTANG KAMI</a></p>
+          <!-- </div> -->
+          <a href="#" class="flex-item privacypolicy-termofuse"
+            >Privacy Policy</a
+          >
+          <a href="#" class="flex-item privacypolicy-termofuse">Terms of Use</a>
+        </div>
+        <div class="flex-item">
+          <div class="flex-item">
+            <p class="footer-bold"><a href="#">FAQ</a></p>
+            <p class="footer-bold"><a href="#">HUBUNGI KAMI</a></p>
+          </div>
+        </div>
+        <div class="flex-item">
+          <div class="flex-item flex-direction-column">
+            <p class="footer-bold">Find Us</p>
+            <p class="flex-item">Email</p>
+            <h2>helpcenter@kokiyu.co.id</h2>
+            <p class="flex-item">Social</p>
+            <a href="#"
+              ><img
+                src="assets/image/instagram-logo-png-2428.png"
+                class="find-us-logo"
+                alt=""
+            /></a>
+            <a href="#"
+              ><img
+                src="assets/image/youtube-logo-png-2067.png"
+                class="find-us-logo"
+                alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="flex-item center-flexbox-2">
+          <img src="assets/image/group-27-copy-3.svg" alt="" class="logo-2" />
+        </div>
+      </div>
+    </footer>
+    <script src="assets/Js/function.js"></script>
+  </body>
+</html>
